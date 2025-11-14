@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - ACK Guest House</title>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- Splide Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
+    />
+
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <!-- Header with Navigation -->
+    <!-- Header with Navigation -->
+    <header>
+      <nav id="navbar" class="navbar">
+        <a href="index.html" class="logo"
+          ><img src="logoGreenhub.png" alt="logo"
+        /></a>
+        <div class="menu-toggle" id="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="booking.html">Book Now</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="booking.html" class="btn">Book Now</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="floating-leaves">
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+        <div class="leaf"></div>
+      </div>
+
+      <div class="hero-content">
+        <h1>Experience true Kenyan hospitality.</h1>
+        <!--  <p>Nature ⭐ Comfort ⭐ Harmony⭐ Authentic</p>-->
+
+        <a href="booking.html" class="btn">Book Your Stay</a>
+      </div>
+    </section>
+
+    <!-- Story Section -->
+    <section class="story">
+      <div class="story-container">
+        <div class="story-image" id="storyImage">
+          <img
+            src="https://images.unsplash.com/photo-1729673766564-618fce6c835e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YSUyMGx1eHVyaW91cyUyMGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+            alt="GreenHub Resort Exterior"
+          />
+        </div>
+        <div class="story-content" id="storyContent">
+          <div class="section-title">
+            <h2>Our Story</h2>
+            <p>Where luxury and nature create unforgettable experiences</p>
+          </div>
+          <p>
+            Nestled in the scenic landscapes of Machakos County, ACK Guest House
+            Machakos was born from a vision to create a sanctuary where guests
+            can reconnect with nature without compromising on luxury and
+            comfort.
+          </p>
+          <p>
+            Our resort is strategically located just 1 minute from Machakos Town
+            and Kangundo Road, offering modern rooms, elegant interiors, and
+            breathtaking views of the Eastern Kenya hills.
+          </p>
+          <p>
+            What makes ACK Guest truly unique is our commitment to
+            <span class="highlight">authentic local experiences</span>, from our
+            delicious Kienyeji chicken prepared with traditional recipes to our
+            serene environment that captures the essence of Kenyan hospitality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+      <div class="section-title">
+        <h2>Experience ACK Guest House</h2>
+        <p>Discover what makes your stay with us truly special</p>
+      </div>
+
+      <div class="experience-grid">
+        <div class="experience-card" id="expCard1">
+          <div class="experience-icon">
+            <i class="fas fa-bed"></i>
+          </div>
+          <h3>Luxury Accommodation</h3>
+          <p>
+            Spacious, elegantly designed rooms with modern amenities and
+            stunning views of our lush gardens and the Eastern Kenya hills.
+          </p>
+        </div>
+
+        <div class="experience-card" id="expCard2">
+          <div class="experience-icon">
+            <i class="fas fa-utensils"></i>
+          </div>
+          <h3>Authentic Cuisine</h3>
+          <p>
+            Savor our delicious Kienyeji chicken and local delicacies prepared
+            with fresh ingredients and traditional Kenyan recipes.
+          </p>
+        </div>
+
+        <div class="experience-card" id="expCard3">
+          <div class="experience-icon">
+            <i class="fas fa-swimming-pool"></i>
+          </div>
+          <h3>Recreation & Events</h3>
+          <p>
+            From our sparkling pools to our modern conference facilities, we
+            offer the perfect setting for both relaxation and business.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+      <div class="section-title">
+        <h2>Resort Gallery</h2>
+        <p>Take a visual journey through our beautiful resort</p>
+      </div>
+
+      <div class="splide" id="galleryCarousel">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <img
+                src="https://images.unsplash.com/photo-1651126178622-50f0bdbe2538?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHJlc3RhdXJhbnQlMjBhcmVhJTIwb3V0c2lkZSUyMHNpdHRpbmclMjBhcmVhfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+                alt="Resort Sitting Area"
+              />
+              <div class="slide-caption">
+                <h3>Elegant Sitting Area</h3>
+                <p>Relax in our comfortable lounge spaces</p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://media.istockphoto.com/id/2147698913/photo/large-mid-century-styled-restaurant-bar-with-tables-and-chairs-stools-benches-ceiling.webp?a=1&b=1&s=612x612&w=0&k=20&c=W_VfEy8WJKppL4r5vVuuP_eO9ESbJgR4HdZ9xmHrlA0="
+                alt="Restaurant"
+              />
+              <div class="slide-caption">
+                <h3>Fine Dining Restaurant</h3>
+                <p>Enjoy authentic Kenyan cuisine</p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://images.unsplash.com/photo-1541987817603-d2b3e0fad6d0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHN3aW1taW5nJTIwcG9vbCUyMGluJTIwYSUyMGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+                alt="Pool Area"
+              />
+              <div class="slide-caption">
+                <h3>Sparkling Swimming Pool</h3>
+                <p>Refresh in our Olympic-sized pool</p>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <img
+                src="https://images.unsplash.com/photo-1665240519020-fd48c35671a8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTI5fHxjb25mZXJlbmNpbmclMjBoYWxsJTIwaW4lMjBhJTIwaG90ZWx8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=500"
+                alt="Conference Room"
+              />
+              <div class="slide-caption">
+                <h3>Modern Conference Hall</h3>
+                <p>Perfect for business events</p>
+              </div>
+            </li>
+            <!--  <li class="splide__slide">
+              <img src="greenhub bar area.jpg" alt="Bar Area" />
+              <div class="slide-caption">
+                <h3>Stylish Bar Area</h3>
+                <p>Unwind with your favorite drinks</p>
+              </div>
+            </li>-->
+            <li class="splide__slide">
+              <img
+                src="https://plus.unsplash.com/premium_photo-1682800179180-fb326934d458?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGFjY29tb2RhdGlvbiUyMGluJTIwYSUyMGx1eHVyaW91cyUyMGhvdGVsfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500"
+                alt="Accommodation"
+              />
+              <div class="slide-caption">
+                <h3>Luxury Accommodation</h3>
+                <p>Spacious and comfortable rooms</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="gallery-cta">
+        <a href="gallery.html" class="btn">View More Photos</a>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="section-title">
+        <h2>Guest Testimonials</h2>
+        <p>What our guests say about their experience</p>
+      </div>
+
+      <div class="splide testimonial-slider" id="testimonialCarousel">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="splide__slide">
+              <div class="testimonial-slide">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  "The perfect blend of luxury and nature. The staff was
+                  incredibly attentive, and the facilities were top-notch. Will
+                  definitely return!"
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/32.jpg"
+                      alt="Sarah Johnson"
+                    />
+                  </div>
+                  <div class="author-info">
+                    <h4>Sarah Johnson</h4>
+                    <p>Business Executive (World Vision)</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="testimonial-slide">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  "Our conference was a huge success thanks to the excellent
+                  facilities and support from the ACK team. The food was
+                  exceptional - I really loved the 'kienyeji' chicken!"
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">
+                    <img
+                      src="https://randomuser.me/api/portraits/men/54.jpg"
+                      alt="David Kimanzi"
+                    />
+                  </div>
+                  <div class="author-info">
+                    <h4>David Kimanzi</h4>
+                    <p>Event Organizer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="splide__slide">
+              <div class="testimonial-slide">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-text">
+                  "The swimming pools are fantastic! Our kids loved the baby
+                  pool while we enjoyed the adult pool with the beautiful view.
+                  A perfect family getaway!"
+                </p>
+                <div class="testimonial-author">
+                  <div class="author-avatar">
+                    <img
+                      src="https://randomuser.me/api/portraits/women/68.jpg"
+                      alt="Adhiambo Omondi"
+                    />
+                  </div>
+                  <div class="author-info">
+                    <h4>Adhiambo Omondi</h4>
+                    <p>Family Vacationer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="cta-content">
+        <h2>Plan Your Next Getaway in Style</h2>
+        <p>
+          Comfort, cuisine, and calm — discover ACK Guest House, where nature
+          meets luxury.
+        </p>
+        <div class="cta-buttons">
+          <a href="booking.html" class="btn">Book Now</a>
+          <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a
+      href="https://wa.me/254723562484?text=Hello%20GreenHub%20Resort,%20I%27d%20like%20to%20make%20a%20booking."
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3>ACK Guest House</h3>
+          <p>
+            Experience luxury in the heart of nature at our serene resort in
+            Machakos, Kenya.
+          </p>
+          <div class="social-links">
+            <a href="https://web.facebook.com/greenhubresort/?_rdc=1&_rdr#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a href="https://www.instagram.com/green_hub_resort/?hl=en"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://x.com/greenhubresort"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="booking.html">Book Now</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <ul class="footer-links">
+            <li>
+              <i class="fas fa-map-marker-alt"></i
+              ><a href="https://maps.app.goo.gl/8hnFiwiqj7PyBzou6">
+                Masii, Machakos, Kenya
+              </a>
+            </li>
+            <li>
+              <i class="fas fa-phone"></i
+              ><a href="tel:+254723562484"> +254 723 562 484</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i
+              ><a href="mailto:info@greenhubresort.com">
+                info@greenhubresort.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2025 ACK Guest House. All Rights Reserved.</p>
+        <p style="margin: 0; font-size: 13px; color: #777">
+          Crafted with <span style="color: red">❤</span> by
+          <a
+            href="https://wa.me/254723562484?text=Hello%20there,%20I%20Need%20a%20Website"
+            target="_blank"
+            rel="noopener"
+            style="color: var(--gold); text-decoration: none; font-weight: 500"
+          >
+            CreateModAfrica
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Splide Carousel Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script src="about.js"></script>
+  </body>
+</html>
