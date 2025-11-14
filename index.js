@@ -65,7 +65,7 @@
       });
         // Typewriter Effect
       const typewriterElement = document.getElementById("typewriter");
-      const words = ["ACK Guest House", "Serenity", "Elegance", "Tranquility"];
+      const words = ["Sun Glam Hotel", "Serenity", "Elegance", "Tranquility"];
       let wordIndex = 0;
       let charIndex = 0;
       let isDeleting = false;
